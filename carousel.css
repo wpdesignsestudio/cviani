@@ -1,0 +1,341 @@
+
+
+/* GOOGLE FONT
+-------------------------------------------------- */
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,400italic,700);
+
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+/* ESTILOS GLOBALES
+-------------------------------------------------- */
+
+body
+{
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 40px;
+    color: #5a5a5a;
+}
+
+/* SECCION .PERFIL */
+
+.perfil
+{
+    margin: 50px auto;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.img-perfil {
+    padding: 4px;
+    line-height: 1.4;
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 0px;
+    transition: all 0.2s ease-in-out 0s;
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.perfil-titulo
+{
+    font-family: 'Lobster', cursive;
+}
+
+.perfil-titulo:after
+{
+    content: "";
+    width: 80px;
+    height: 3px;
+    background: #5a5a5a;
+    display: block;
+    margin: 25px auto;
+}
+
+.perfil-subtitulo
+{
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+/* .EDUCACION*/
+
+.educacion
+{
+    margin: 50px auto;
+    padding: 50px 0px;
+}
+
+/* CUSTON NAVEGACION .NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+
+.navbar-wrapper
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+
+.navbar-wrapper > .container
+{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-wrapper .navbar
+{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navbar-wrapper .navbar .container
+{
+    width: auto;
+}
+
+/* CUSTON CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+
+.carousel
+{
+    height: 500px;
+    margin-bottom: 60px;
+}
+
+/* Since positioning the image, we need to help out the caption */
+
+.carousel-caption
+{
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+
+.carousel .item
+{
+    height: 500px;
+    background-color: #777;
+}
+
+.carousel-inner > .item > img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+
+/* EDUCACION CONTENIDO
+-------------------------------------------------- */
+
+.divisor
+{
+    margin: 80px auto;
+    max-width: 960px;
+    display: block;
+}
+
+.titulo-educacion
+{
+    font-family: 'Lobster', cursive;
+}
+
+.titulo-educacion:after
+{
+    content: "";
+    width: 80px;
+    height: 3px;
+    background: #5a5a5a;
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.icon-educacion
+{
+    font-size: 6rem;
+    margin-right: 10px;
+}
+
+.lista-educacion
+{
+    margin-top: 25px;
+}
+
+/* CUSTOM SKILLBAR */
+
+.content-skillbar
+{
+    margin-top: 50px;
+}
+
+.skillbar
+{
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    background: #eee;
+    height: 35px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -ms-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+}
+
+.skillbar-title
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: bold;
+    font-size: 13px;
+    color: #fff;
+    background: #6adcfa;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.skillbar-title span
+{
+    display: block;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    height: 35px;
+    line-height: 35px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.skillbar-bar
+{
+    height: 35px;
+    width: 0px;
+    background: #6adcfa;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#444;
+	color:rgba(0, 0, 0, 0.4);
+}
+
+/* CUSTOM FOOTER */
+
+.footer
+{
+    background: #008cba;
+    color: #FFF;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.footer p
+{
+    margin: 0px;
+}
+
+.footer a
+{
+    color: #FFF;
+    transition: all 0.3s ease;
+}
+
+.footer a:hover
+{
+    color: #006687;
+}
+
+/* custom bootstrap */
+
+.navbar-brand
+{
+    font-family: 'Lobster', cursive;
+}
+
+.navbar-nav > li > a {
+    transition: all 0.3s ease-in-out;
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px)
+{
+/* Navbar positioning foo */
+    .navbar-wrapper
+    {
+        margin-top: 20px;
+    }
+    .navbar-wrapper .container
+    {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .navbar-wrapper .navbar
+    {
+        padding-right: 0;
+        padding-left: 0;
+    }
+/* The navbar becomes detached from the top, so we round the corners */
+    .navbar-wrapper .navbar
+    {
+        border-radius: 4px;
+    }
+/* Bump up size of carousel content */
+    .carousel-caption p
+    {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+    .featurette-heading
+    {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 992px)
+{
+    .featurette-heading
+    {
+        margin-top: 120px;
+    }
+}
+
