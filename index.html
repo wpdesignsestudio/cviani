@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="/favicon.ico" />
         <meta name="description" content="">
         <meta name="author" content="">
         <title>Iani Ferrer</title>
@@ -16,10 +17,11 @@
     <![endif]-->
         <!-- Custom styles for this template -->
         <link href="carousel.css" rel="stylesheet">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     </head>
     <!-- NAVBAR
 ================================================== -->
-    <body class="">
+    <body class="" id="ir-arriba">
         <div class="navbar-wrapper">
             <div class="container">
                 <nav class="navbar navbar-static-top navbar-inverse">
@@ -33,28 +35,28 @@
                             </button>
                             <a class="navbar-brand" href="#">Iani Ferrer</a>
                         </div>
-                        <div id="navbar" class="navbar-collapse collapse">
-                            <ul class="nav navbar-nav">
-                                <li class="active">
+                        <div id="navbar" class="navbar-collapse collapse text-center">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="btn-linea-izq">
                                     <a href="#">INICIO</a>
                                 </li>
-                                <li>
-                                    <a href="#about">PERFIL</a>
+                                <li class="btn-linea-izq">
+                                    <a href="#perfil">PERFIL</a>
                                 </li>
-                                <li>
-                                    <a href="#contact">TRABAJOS</a>
+                                <li class="btn-linea-izq">
+                                    <a href="#trabajos">TRABAJOS</a>
                                 </li>
-                                <li>
-                                    <a href="#contact">CONTACTOS</a>
+                                <li class="btn-linea-izq">
+                                    <a href="#contactos">CONTACTOS</a>
                                 </li>
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SOCIALES <span class="caret"></span></a>
                                     <ul class="dropdown-menu">
-                                        <li>
-                                            <a href="#">FACEBOOK</a>
+                                        <li class="text-center">
+                                            <a href="#" class="icon-social-a"><i class="fa fa-facebook"></i> Facebook</a>
                                         </li>
-                                        <li>
-                                            <a href="#">TWITTER</a>
+                                        <li class="text-center">
+                                            <a href="#" class="icon-social-b"><i class="fa fa-twitter"></i> Twitter</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -78,9 +80,9 @@
                     <img class="first-slide" src="img/bg2.png" alt="First slide">
                     <div class="container">
                         <div class="carousel-caption">
-                            <h1 class="perfil-titulo">lorem ipsum dolo ismet.</h1>
+                            <h1 class="carousel-titulo">Iani Ferrer Lantigua</h1>
                             <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Contactos</a></p>
+                            <p><a class="btn btn-lg btn-primary btn-ico" href="#contactos" role="button">Contactos</a></p>
                         </div>
                     </div>
                 </div>
@@ -88,9 +90,9 @@
                     <img class="second-slide" src="img/bg1.png" alt="Second slide">
                     <div class="container">
                         <div class="carousel-caption">
-                            <h1 class="perfil-titulo">Lorem ipsum dolor.</h1>
+                            <h1 class="carousel-titulo">Procesamiento y Tabulacion de Datos.</h1>
                             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Conoceme</a></p>
+                            <p><a class="btn btn-lg btn-primary btn-ico" href="#perfil" role="button">Conoceme</a></p>
                         </div>
                     </div>
                 </div>
@@ -98,9 +100,9 @@
                     <img class="third-slide" src="img/bg2.png" alt="Third slide">
                     <div class="container">
                         <div class="carousel-caption">
-                            <h1 class="perfil-titulo">Lorem ipsum.</h1>
+                            <h1 class="carousel-titulo">Lorem ipsum.</h1>
                             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Trabajos</a></p>
+                            <p><a class="btn btn-lg btn-primary btn-ico" href="#trabajos" role="button">Trabajos</a></p>
                         </div>
                     </div>
                 </div>
@@ -116,12 +118,13 @@
             <section class="perfil" id="perfil">
                 <div class="row">
                     <div class="col-sm-8 col-sm-offset-2 col-xs-12">
-                        <img src="img/perfil.jpg" class="img-perfil" />
+                        <img src="img/perfil.png" class="img-perfil" />
                         <h2 class="perfil-titulo">Iani Ferrer Lantigua</h2>
                         <h4 class="perfil-subtitulo">Procesamiento y Tabulacion de Datos</h4> 
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices est et elementum malesuada. Nulla aliquam nisl arcu, eget accumsan nibh bibendum et. Donec tellus tellus, scelerisque id libero et, iaculis aliquet orci. Nam a pulvinar diam. Maecenas ultricies velit et sem dictum, eu vulputate ex hendrerit. Nullam consequat sapien quis pulvinar rhoncus. Vivamus leo leo, laoreet vel efficitur in, viverra non ipsum. Donec a eleifend augue. Nam facilisis bibendum aliquam. Pellentesque sit amet augue luctus, sagittis neque in, volutpat nisl. Phasellus aliquam, nibh nec posuere facilisis, libero lacus congue arcu, sed malesuada enim quam ut mauris. Nullam dictum fermentum ante sollicitudin ornare. </p>
                         <p>Nullam egestas eu neque quis vehicula. Nunc mattis purus libero, eu commodo lacus varius quis. Etiam at hendrerit orci, vitae ultrices sem. Aliquam erat volutpat. Duis orci justo, vehicula sed ullamcorper at, feugiat in metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam iaculis nec mauris nec bibendum. Proin gravida sem sed ex dapibus, sit amet consectetur elit consequat. Donec faucibus eleifend erat. Nulla consequat diam eget tincidunt finibus. Maecenas eu tellus ex. Nam auctor felis non justo luctus faucibus sit amet pellentesque risus. Ut viverra dolor non est feugiat lobortis. Sed eu rhoncus justo. Sed quis euismod libero.  </p>
-                        <p>Fusce luctus vel dui sed fermentum. Donec leo dolor, euismod vel condimentum eget, lobortis at metus. Aliquam elit sem, pretium et rutrum in, facilisis quis libero. Ut gravida magna metus, sit amet vulputate risus vestibulum quis. Sed at porta risus. Donec eleifend augue sed turpis ullamcorper finibus. Donec ac felis ex. Nulla non nulla ut massa volutpat suscipit id a orci. </p> 
+                        <p>Fusce luctus vel dui sed fermentum. Donec leo dolor, euismod vel condimentum eget, lobortis at metus. Aliquam elit sem, pretium et rutrum in, facilisis quis libero. Ut gravida magna metus, sit amet vulputate risus vestibulum quis. Sed at porta risus. Donec eleifend augue sed turpis ullamcorper finibus. Donec ac felis ex. Nulla non nulla ut massa volutpat suscipit id a orci. </p>
+                        <a class="btn btn-primary btn-lg boton-prefil btn-ico" href="#" data-toggle="modal" data-target="#datos-personales"><i class="fa fa-user"></i> Conoce Mas</a> 
                     </div>
                 </div>
             </section>
@@ -137,17 +140,15 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices est et elementum malesuada. Nulla aliquam nisl arcu, eget accumsan nibh bibendum et. Donec tellus tellus, scelerisque id libero et, iaculis aliquet orci. Nam a pulvinar diam. Maecenas ultricies velit et sem dictum, eu vulputate ex hendrerit. Nullam consequat sapien quis pulvinar rhoncus. Vivamus leo leo, laoreet vel efficitur in, viverra non ipsum. Donec a eleifend augue. Nam facilisis bibendum aliquam. Pellentesque sit amet augue luctus, sagittis neque in, volutpat nisl. Phasellus aliquam, nibh nec posuere facilisis, libero lacus congue arcu, sed malesuada enim quam ut mauris. Nullam dictum fermentum ante sollicitudin ornare. </p>
                             <ul class="media-list lista-educacion"> 
                                 <li class="media"> 
-                                    <span class="glyphicon glyphicon-education icon-educacion pull-left"></span> 
                                     <div class="media-body"> 
-                                        <h4 class="media-heading">Universidad Dominicana O&M</h4>
+                                        <h4 class="media-heading"><strong>Universidad Dominicana O&M</strong></h4>
                                         <h6 class="media-heading">Tecnología de la información</h6> 
                                         <p>Durante el tiempo que estuve en la universidad fui parte del staff del centro de cómputos durante un periodo,,actualmente soy autodidacta.</p>
                                     </div>                                     
                                 </li>                                 
                                 <li class="media"> 
-                                    <span class="glyphicon icon-educacion glyphicon-list-alt pull-left"></span> 
                                     <div class="media-body"> 
-                                        <h4 class="media-heading">Cursos independientes</h4>
+                                        <h4 class="media-heading"><strong>Cursos independientes</strong></h4>
                                         <ul> 
                                             <li>Dominando Wordpress sin programacion </li>                                             
                                             <li>Desarrollo de Website </li>                                             
@@ -163,34 +164,34 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices est et elementum malesuada. Nulla aliquam nisl arcu, eget accumsan nibh bibendum et. Donec tellus tellus, scelerisque id libero et, iaculis aliquet orci. </p>
                             <div class="content-skillbar">
                                 <div class="skillbar clearfix " data-percent="95%">
-                                    <div class="skillbar-title" style="background: #008cba;">
+                                    <div class="skillbar-title" style="background: #000c13;">
                                         <span>HTML5/JADE</span>
                                     </div>
-                                    <div class="skillbar-bar" style="background: #008cba;"></div>
+                                    <div class="skillbar-bar" style="background: #011826;"></div>
                                     <div class="skill-bar-percent">95%</div>
                                 </div>
                                 <!---  CSS --->
                                 <div class="skillbar clearfix " data-percent="85%">
-                                    <div class="skillbar-title" style="background: #008cba;">
+                                    <div class="skillbar-title" style="background: #000c13;">
                                         <span>CSS/SASS</span>
                                     </div>
-                                    <div class="skillbar-bar" style="background: #008cba;"></div>
+                                    <div class="skillbar-bar" style="background: #011826;"></div>
                                     <div class="skill-bar-percent">85%</div>
                                 </div>
                                 <!---- /CSS --->
                                 <!----- jQuery  ------->
                                 <div class="skillbar clearfix " data-percent="70%">
-                                    <div class="skillbar-title" style="background: #008cba;">
+                                    <div class="skillbar-title" style="background: #000c13;">
                                         <span>JS/JQUERY</span>
                                     </div>
-                                    <div class="skillbar-bar" style="background: #008cba;"></div>
+                                    <div class="skillbar-bar" style="background: #011826;"></div>
                                     <div class="skill-bar-percent">70%</div>
                                 </div>
                                 <div class="skillbar clearfix " data-percent="75%">
-                                    <div class="skillbar-title" style="background: #008cba;">
+                                    <div class="skillbar-title" style="background: #000c13;">
                                         <span>CMS/WORDPRESS</span>
                                     </div>
-                                    <div class="skillbar-bar" style="background: #008cba;"></div>
+                                    <div class="skillbar-bar" style="background: #011826;"></div>
                                     <div class="skill-bar-percent">75%</div>
                                 </div>
                                 <!----- /jQuery  ------->
@@ -198,16 +199,16 @@
                             <div class="row">
                                 <h2 class="titulo-educacion">Mis herramientas</h2>
                                 <div class="col-md-4">
-                                    <img src="img/sass%20logo.png" class="img-responsive" /> 
+                                    <img src="img/sass%20logo.png" class="img-responsive img-thumbnail img-herramientas" /> 
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="img/jade-logo.svg" class="img-responsive" /> 
+                                    <img src="img/jade-logo.png" class="img-responsive img-thumbnail img-herramientas" /> 
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="img/jquery%20logo.png" class="img-responsive" /> 
+                                    <img src="img/jquery%20logo.png" class="img-responsive img-thumbnail img-herramientas" /> 
                                 </div>
                             </div>
-                        </div>                                                  
+                        </div>                         
                     </div>
                 </div>
             </section>
@@ -217,10 +218,10 @@
                     <div class="col-sm-8 col-sm-offset-2">
                         <h2 class="titulo-educacion">Mis Trabajos Recientes </h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices est et elementum malesuada. Nulla aliquam nisl arcu, eget accumsan nibh bibendum et. Donec tellus tellus, scelerisque id libero et, iaculis aliquet orci. </p>
-                        <div class="row">
+                        <div class="row contactos-row">
                             <div class="col-sm-4"> 
                                 <div class="thumbnail"> 
-                                    <img src="img/theming.png" alt="" class="img-responsive"> 
+                                    <img src="img/theming1.png" alt="" class="img-responsive"> 
                                     <div class="caption"> 
                                         <h4>Descripcion del proyecto</h4> 
                                         <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> 
@@ -230,7 +231,7 @@
                             </div>
                             <div class="col-sm-4"> 
                                 <div class="thumbnail"> 
-                                    <img src="img/toolbox.png" alt=""> 
+                                    <img src="img/toolbox1.png" alt=""> 
                                     <div class="caption"> 
                                         <h4>Descripcion del proyecto</h4> 
                                         <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> 
@@ -240,7 +241,7 @@
                             </div>
                             <div class="col-sm-4"> 
                                 <div class="thumbnail"> 
-                                    <img src="img/book.png" alt=""> 
+                                    <img src="img/book1.png" alt=""> 
                                     <div class="caption"> 
                                         <h4>Descripcion del proyecto</h4> 
                                         <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> 
@@ -253,12 +254,96 @@
                 </div>
             </section>
             <hr class="divisor">
+            <section class="contactos" id="contactos">
+                <div class="row featurette">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <h2 class="titulo-contactos">Mis Trabajos Recientes </h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices est et elementum malesuada. Nulla aliquam nisl arcu, eget accumsan nibh bibendum et. Donec tellus tellus, scelerisque id libero et, iaculis aliquet orci. </p>
+                        <div class="row contactos-row">
+                            <div class="col-sm-8 col-sm-offset-2">
+                                <div class="thumbnail">
+                                    <i class="fa fa-send fa-5x icon-contactos"></i> 
+                                    <div class="caption"> 
+                                        <h4 class="h4-contactos">Enviame un +email.</h4> 
+                                        <p> </p>
+                                        <button type="button" class="btn btn-primary btn-lg btn-block btn-ico">ianiferrer@miemail.com</button>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-8 col-sm-offset-2">
+                                <h2 class="perfil-subtitulo">SOCIALES</h2>
+                                <ul class="list-inline social-contactos"> 
+                                    <li class="">
+                                        <button type="button" class="btn btn-primary icon-social-a">
+                                            <i class="fa fa-facebook"></i>
+                                        </button>
+                                    </li>                                     
+                                    <li class="">
+                                        <button type="button" class="btn btn-primary icon-social-b">
+                                            <i class="fa fa-twitter"></i>
+                                        </button>
+                                    </li>
+                                    <li class="">
+                                        <button type="button" class="btn btn-primary icon-social-a">
+                                            <i class="fa fa-github"></i>
+                                        </button>
+                                    </li>
+                                    <li class="">
+                                        <button type="button" class="btn btn-primary icon-social-b">
+                                            <i class="fa fa-codepen"></i>
+                                        </button>
+                                    </li>                                     
+                                </ul>                                 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="divisor">
             <footer class="footer">
-                <p class="pull-right"><a href="#">Ir arriba</a></p>
+                <p class="pull-right"><a href="#ir-arriba">Ir arriba</a></p>
                 <p>&copy; 2016 Dopeybbs, Inc. &middot; </p>
             </footer>
             <!-- /END THE FEATURETTES -->
             <!-- FOOTER -->
+        </div>
+        <div class="modal fade pg-show-modal" id="datos-personales" tabindex="-1" role="dialog" aria-hidden="true"> 
+            <div class="modal-dialog"> 
+                <div class="modal-content"> 
+                    <div class="modal-header"> 
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h2 class="modal-title titulo-educacion">Iani Ferrer Lantigua</h2> 
+                        <h4 class="perfil-subtitulo">Datos Personales</h4> 
+                    </div>                     
+                    <div class="modal-body">
+                        <div class="col-sm-6">
+                            <h4>Column title</h4> 
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> 
+                        </div>
+                        <div class="col-sm-6">
+                            <ul class="list-group"> 
+                                <li class="list-group-item">FECHA DE NACIMIENTO: 
+                                    <span>31/02/1492</span>
+                                </li>
+                                <li class="list-group-item">ESTADO CIVIL: 
+                                    <span>CASADO</span>
+                                </li>
+                                <li class="list-group-item">CI: 
+                                    <span>001-1234564-01</span>
+                                </li>
+                                <li class="list-group-item">OTRO DATO: 
+                                    <span>Soy un dato</span>
+                                </li>                                 
+                            </ul>                             
+                        </div>                         
+                    </div>                     
+                    <div class="modal-footer"> 
+                        <button type="button" class="btn btn-primary btn-ico" data-dismiss="modal">Cerrar</button>                         
+                    </div>                     
+                </div>                 
+            </div>             
         </div>
         <!-- /.container -->
         <!-- Bootstrap core JavaScript
@@ -268,8 +353,14 @@
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
         <script src="assets/js/holder.min.js"></script>
+        <script src="assets/js/main.js"></script>
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+        <script type="text/javascript">
+  $(document).ready(function() {
+    $('.carousel').carousel({interval: 7000});
+  });
+</script>
         <script>
             jQuery('.skillbar').each(function(){
 	jQuery(this).find('.skillbar-bar').animate({
